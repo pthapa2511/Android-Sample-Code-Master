@@ -1,0 +1,42 @@
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid android:color="@color/colorPrimaryDark" />
+
+    <size
+        android:width="20dp"
+        android:height="20dp" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/colorPrimaryDark" />
+</shape>-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Large red circle -->
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:width="2dp"
+                android:color="@color/colorPrimary" />
+            <solid android:color="#ffff" />
+            <size
+                android:width="20dp"
+                android:height="20dp" />
+        </shape>
+    </item>
+
+    <!-- Small black circle -->
+    <item >
+        <shape android:shape="oval">
+            <stroke
+                android:width="10dp"
+                android:color="@android:color/transparent" />
+            <solid android:color="@color/colorPrimaryDark" />
+            <size
+                android:width="10dp"
+                android:height="10dp" />
+        </shape>
+    </item>
+</layer-list>

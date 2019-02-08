@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout_search_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_text_search_coupon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="@null"
+                android:hint="Search your coupon by keyword"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textCursorDrawable="@drawable/cursor_drawable" />
+
+            <ImageView
+                android:id="@+id/image_view_search"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:background="@color/colorPrimaryDark"
+                android:src="@mipmap/ic_search" />
+        </LinearLayout>
+
+        <com.app.testSample.utility.Widget.CustomButton
+            android:id="@+id/button_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_search_text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="Search Coupons"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:customButtonFont="@string/font_zona_pro" />
+
+
+        <ListView
+            android:id="@+id/list_view_search_coupons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/button_search"
+            android:layout_marginTop="5dp"
+            android:divider="@null"
+            android:dividerHeight="5dp"></ListView>
+
+
+        <LinearLayout
+            android:id="@+id/layout_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <include layout="@layout/error_layout" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

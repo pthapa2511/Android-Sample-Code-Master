@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Test App</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_store">Stores</string>
+    <string name="nav_bank_offers">Bank Offers</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_help_and_support">Help &amp; Support</string>
+    <!--<string name="nav_feedback">Feedback</string>-->
+    <string name="nav_news_letter">Newsletter</string>
+
+    <!--Strings for screen types-->
+    <string name="label_category">Categories</string>
+    <string name="label_stores">Stores</string>
+    <string name="label_offer_details">Offer Details</string>
+    <string name="label_offers">Offers</string>
+    <string name="label_search_coupons">Search Coupons</string>
+    <string name="label_bank_offer">Bank Offers</string>
+    <string name="label_help_and_support">Help &amp; Support</string>
+
+    <!--Strings for API's-->
+    <string name="base_url">Test Api</string>
+    <string name="api_get_top_20_category">GetTop20_Categories</string>
+    <string name="api_get_all_stores_category">GetAll_Categories</string>
+    <string name="api_get_top_20_stores">GetTop_20Stores</string>
+    <string name="api_get_all_stores">GetAll_Stores</string>
+    <string name="api_get_best_offers">GetBestOffer</string>
+    <string name="api_get_coupon_by_category">GetCouponsByCategories</string>
+    <string name="api_get_coupon_by_stores">GetCouponsByStores</string>
+    <string name="api_get_coupon_details">GetCouponsDetails</string>
+    <string name="api_get_important_links">Importantlinks</string>
+    <string name="api_get_coupons_by_search">GetCouponsBySearch</string>
+    <string name="api_bank_offers">BankOffer</string>
+    <string name="api_news_letter">NewsletterSubscribe</string>
+    <string name="api_help_and_support">HelpSupport</string>
+    <string name="api_slider_url">SliderUrl</string>
+
+    <!--Fonts to be used in application Added by Anoop Singh 21-01-2016-->
+    <string name="font_zona_pro_black" translatable="false">Intelligent Design - Zona Pro Black.otf</string>
+    <string name="font_zona_pro_bold" translatable="false">Intelligent Design - Zona Pro Bold.otf</string>
+    <string name="font_zona_pro_light" translatable="false">Intelligent Design - Zona Pro Light.otf</string>
+    <string name="font_zona_pro" translatable="false">Intelligent Design - Zona Pro.otf</string>
+    <!--ends here-->
+
+    <string name="progress_loading">Loading...</string>
+
+    <!--errors-->
+    <string name="error_internet_availability">Currenlty you are not connected to internet.</string>
+    <string name="error_no_data">Currently there are no items in categories.</string>
+</resources>

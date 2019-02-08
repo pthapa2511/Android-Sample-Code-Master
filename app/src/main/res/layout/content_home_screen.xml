@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.app.testSample.homescreen.HomeScreen"
+    tools:showIn="@layout/activity_home_screen">
+
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Hello World!" />-->
+    <!-- <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/content_frame"></FrameLayout>-->
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_layout"
+        android:background="?attr/colorPrimary"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="#ECF0F1"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabTextAppearance="@style/customTabStyle"></android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/tab_layout"
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.testSample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".homescreen.HomeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".category.AllCategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.GetAllStoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".offer.OfferDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".offer.GetCouponDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".search.SearchCoupons"
+            android:screenOrientation="portrait" />
+        <activity android:name=".offer.BankOffer"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".support.HelpAndSupportActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

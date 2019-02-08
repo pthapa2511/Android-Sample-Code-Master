@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_corner"
+            android:orientation="vertical">
+
+            <com.app.testSample.utility.Widget.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Subscribe NewsLetter"
+                android:textColor="@color/category_text_color"
+                android:textSize="15sp"
+                app:customTextFont="@string/font_zona_pro"
+                android:layout_marginBottom="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <com.app.testSample.utility.Widget.CustomEditText
+                android:id="@+id/edit_text_email_id"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/coupon_code_rounded_corner"
+                android:hint="Email id"
+                android:textColor="@color/category_text_color"
+                android:textSize="15sp"
+                app:customEditTextFont="@string/font_zona_pro"
+                android:inputType="textEmailAddress"/>
+
+            <com.app.testSample.utility.Widget.CustomButton
+                android:id="@+id/button_subscribe_news_letter"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/selector_button"
+                android:text="Subscribe"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:customButtonFont="@string/font_zona_pro" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

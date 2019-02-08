@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Tue Jun 26 18:05:18 IST 2018
+2.base=E\:\\prjcts\\Geektech\\Couponbenz\\TestSample\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+5.set=ASSET
+0.path=Intelligent Design - Zona Pro Black.otf
+2.baseType=DIRECTORY
+3.base=E\:\\prjcts\\Geektech\\Couponbenz\\TestSample\\app\\build\\intermediates\\assets\\debug
+2.set=DEX
+1.path=Intelligent Design - Zona Pro Bold.otf
+4.base=E\:\\prjcts\\Geektech\\Couponbenz\\TestSample\\app\\build\\intermediates\\assets\\debug
+count=6
+5.baseType=DIRECTORY
+2.path=classes.dex
+5.base=E\:\\prjcts\\Geektech\\Couponbenz\\TestSample\\app\\build\\intermediates\\assets\\debug
+4.set=ASSET
+3.path=Intelligent Design - Zona Pro Regular Italic.otf
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=Intelligent Design - Zona Pro.otf
+1.baseType=DIRECTORY
+5.path=Intelligent Design - Zona Pro Light.otf
+0.base=E\:\\prjcts\\Geektech\\Couponbenz\\TestSample\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=E\:\\prjcts\\Geektech\\Couponbenz\\TestSample\\app\\build\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=ASSET

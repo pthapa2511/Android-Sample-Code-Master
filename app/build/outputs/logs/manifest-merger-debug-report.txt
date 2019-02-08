@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:2:1-46:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\7275f36edf2f0a32790daa723466bf88\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\80935ea7fc7ecee0491f905c6ce9b9b7\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\2576d247b1580bbb76a0bab78c019bf0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\663088c45fe3572c0f4b3514f1dfd8f0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\deb02f12858f5bb4f8c7d78371e7d06c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0d28f36bb46e7e97d53ec93e2a2a48da\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\4f01bd72431f4653dbaef0d1704e5039\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ff9f74a4e987d85c41ad47dc87c50348\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f6b10169c70f2574824da7936e0fa345\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\c701096b8111893d29fd27f9173aab61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\4ab1dc134fa33eddd46aaaca687433be\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\9e19cadbd02102a6c6e7cb0f16598e10\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4e1b4a5defa889db329a16b31ae909d3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\31f9c27fe5ffad407c31a8f7ea20227c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8b8125b67b5e9cd86d600cf5b50a3e85\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4144442e616f91c5427c88b99ff6f991\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b492e96169ab689b95ae96222412c75e\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+		INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:8:5-44:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\2576d247b1580bbb76a0bab78c019bf0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\2576d247b1580bbb76a0bab78c019bf0\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.app.testSample.SplashScreenActivity
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:16:13-45
+	android:theme
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:15:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.app.testSample.homescreen.HomeScreen
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:23:9-25:52
+	android:screenOrientation
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:24:13-50
+activity#com.app.testSample.category.AllCategoryActivity
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:26:9-28:52
+	android:screenOrientation
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:27:13-57
+activity#com.app.testSample.store.GetAllStoreActivity
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:29:9-31:52
+	android:screenOrientation
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:30:13-54
+activity#com.app.testSample.offer.OfferDetailActivity
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:32:9-34:52
+	android:screenOrientation
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:33:13-54
+activity#com.app.testSample.offer.GetCouponDetailsActivity
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:35:9-37:52
+	android:screenOrientation
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:36:13-59
+activity#com.app.testSample.search.SearchCoupons
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:38:9-39:52
+	android:screenOrientation
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:38:19-55
+activity#com.app.testSample.offer.BankOffer
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:40:9-41:51
+	android:screenOrientation
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:40:19-50
+activity#com.app.testSample.support.HelpAndSupportActivity
+ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:42:9-43:51
+	android:screenOrientation
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml:42:19-65
+uses-sdk
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\7275f36edf2f0a32790daa723466bf88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\7275f36edf2f0a32790daa723466bf88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\80935ea7fc7ecee0491f905c6ce9b9b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\80935ea7fc7ecee0491f905c6ce9b9b7\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\2576d247b1580bbb76a0bab78c019bf0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\2576d247b1580bbb76a0bab78c019bf0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\663088c45fe3572c0f4b3514f1dfd8f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\663088c45fe3572c0f4b3514f1dfd8f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\deb02f12858f5bb4f8c7d78371e7d06c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\deb02f12858f5bb4f8c7d78371e7d06c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0d28f36bb46e7e97d53ec93e2a2a48da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0d28f36bb46e7e97d53ec93e2a2a48da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\4f01bd72431f4653dbaef0d1704e5039\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\4f01bd72431f4653dbaef0d1704e5039\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ff9f74a4e987d85c41ad47dc87c50348\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ff9f74a4e987d85c41ad47dc87c50348\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f6b10169c70f2574824da7936e0fa345\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f6b10169c70f2574824da7936e0fa345\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\c701096b8111893d29fd27f9173aab61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\c701096b8111893d29fd27f9173aab61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\4ab1dc134fa33eddd46aaaca687433be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\4ab1dc134fa33eddd46aaaca687433be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\9e19cadbd02102a6c6e7cb0f16598e10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\9e19cadbd02102a6c6e7cb0f16598e10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4e1b4a5defa889db329a16b31ae909d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4e1b4a5defa889db329a16b31ae909d3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\31f9c27fe5ffad407c31a8f7ea20227c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\31f9c27fe5ffad407c31a8f7ea20227c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8b8125b67b5e9cd86d600cf5b50a3e85\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8b8125b67b5e9cd86d600cf5b50a3e85\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4144442e616f91c5427c88b99ff6f991\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4144442e616f91c5427c88b99ff6f991\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b492e96169ab689b95ae96222412c75e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\anoop.singh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b492e96169ab689b95ae96222412c75e\AndroidManifest.xml:20:5-44
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+		INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+		ADDED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml
+		INJECTED from E:\prjcts\Geektech\Couponbenz\TestSample\app\src\main\AndroidManifest.xml

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical">
+
+        <com.app.testSample.utility.Widget.CustomTextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            app:customTextFont="@string/font_zona_pro"
+            android:textColor="@color/category_text_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.app.testSample.utility.Widget.CustomTextView
+                android:id="@+id/text_view_dialog_coupon_code"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.6"
+                android:background="@drawable/coupon_code_rounded_corner"
+                android:textSize="15sp"
+                app:customTextFont="@string/font_zona_pro"
+                android:gravity="center"
+                android:textColor="@android:color/darker_gray"/>
+
+            <com.app.testSample.utility.Widget.CustomButton
+                android:id="@+id/button_dialog_copy_code"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:background="@drawable/selector_button"
+                android:text="Copy"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <com.app.testSample.utility.Widget.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Paste this code at checkout when you are done shopping."
+            android:textColor="@color/category_text_color"
+            android:textSize="15sp"
+            app:customTextFont="@string/font_zona_pro" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.app.testSample.utility.Widget.CustomButton
+                android:id="@+id/button_dialog_close"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_button"
+                android:text="Close"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".01" />
+
+            <com.app.testSample.utility.Widget.CustomButton
+                android:id="@+id/button_dialog_open_website"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_button"
+                android:text="Open Site"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

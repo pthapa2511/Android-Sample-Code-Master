@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+
+    <RelativeLayout
+        android:id="@+id/layout_offer_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/image_view_offer_detail"
+            android:layout_width="120dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/image_border"/>
+
+        <com.app.testSample.utility.Widget.CustomTextView
+            android:id="@+id/text_view_store_name"
+            app:customTextFont="@string/font_zona_pro_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_view_offer_detail"
+            android:gravity="center|left"
+            android:textColor="@color/category_text_color"
+            android:textSize="18sp" />
+
+        <com.app.testSample.utility.Widget.CustomTextView
+            android:id="@+id/text_view_store_description"
+            app:customTextFont="@string/font_zona_pro"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@id/image_view_offer_detail"
+            android:layout_below="@id/image_view_offer_detail"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:maxLines="4"
+            android:textColor="@color/category_text_color"
+            android:textSize="14sp" />
+        <com.app.testSample.utility.Widget.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read More >>"
+            android:textColor="@drawable/selector_text_view"
+            app:customTextFont="@string/font_zona_pro_bold"
+            android:layout_below="@id/text_view_store_description"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:textSize="12sp"
+            android:id="@+id/text_view_read_more" />
+
+        <com.app.testSample.utility.Widget.CustomTextView
+            android:id="@+id/text_view_offer_count"
+            app:customTextFont="@string/font_zona_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/text_view_store_description"
+            android:layout_below="@id/text_view_read_more"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center|left"
+            android:textColor="@color/category_text_color"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>
